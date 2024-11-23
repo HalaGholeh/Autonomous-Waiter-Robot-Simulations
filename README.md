@@ -51,7 +51,9 @@ To visualize the robot and the simulation environment, you need to run RViz2 in 
 * In RViz2, you will be able to visualize the robot’s sensor data, its path, and other relevant information.
 
 ![image](https://github.com/user-attachments/assets/1f27155a-6555-44a4-916f-663ae282c2bf)
+
 **In RViz2 in the left side put the Fixed Frame to the base_link**
+
 ![image](https://github.com/user-attachments/assets/2220d6f8-bc1e-4363-a42d-d502d05359b5)
 
 
