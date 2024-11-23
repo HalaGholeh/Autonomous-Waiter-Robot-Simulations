@@ -42,7 +42,7 @@ By default, the robot will placed in the environment, but it will not move. To c
   * J: Turn the robot left.
   * K: Stop the robot.
     
-Here is a link for running teleop_twist_keyboard with Gazebo: https://youtu.be/FbXKk7vDK7c
+**Here is a link for running teleop_twist_keyboard with Gazebo:** https://youtu.be/FbXKk7vDK7c
 
 ### 6. Running RViz2 for Visualization
 To visualize the robot and the simulation environment, you need to run RViz2 in a separate terminal. Follow these steps:
@@ -94,9 +94,35 @@ To begin the SLAM process and create a map of the environment, use the following
 
 ![image](https://github.com/user-attachments/assets/997f1581-0203-4554-bbbc-17606096aba1)
 
-Here is a video link showing the mapping process: https://youtu.be/T0uWB3VfGJA
+**Here is a video link showing the mapping process:** https://youtu.be/T0uWB3VfGJA
 
+### 9.	Running Navigation with Nav2
+To enable the robot to navigate to specific positions or tables, you need to launch Nav2. Use the following command in a new terminal:
+**ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true**
+*	This command will start the Nav2 Navigation Stack, which allows the robot to navigate through the environment using the map and sensors.
+*	Once Nav2 is running, you can command the robot to move to any poison or table within the restaurant map.
+**Important Notes:**
+*	Run these terminals:
+   1.	Terminal 1: Run the command to launch the simulation with map (as explained in Section 7)
+   2.	Terminal 2: Run teleop_twist_keyboard to control the robot's movement (as explained in Section 5).
+   3.	Terminal 3: Run rviz2 to visualize the environment and the robot in RVize2 (as explained in Section 6)
+   4.	Terminal 4: Run the SLAM Toolbox command: ros2 launch slam_toolbox online_async_launch.py use_sim_time:=true
+   5.	Terminal 5: run Nav2 using this command: ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
+*	Ensure to set Fixed Frame to map in RViz2:
+ ![image](https://github.com/user-attachments/assets/ca8adaed-bc64-4e3f-a7ed-a6766e7177b2)
 
+ * Start by manually exploring the environment using the keyboard teleoperation tool.
+*	Navigate the robot around the area until a complete map is generated.
+*	Set the Navigation Goal:
+    * In RViz2, locate the "2D Goal Pose" tool at the top toolbar.
+    *	Select the "2D Goal Pose" tool and click on the map at the position where you want the robot to navigate.
+    *	Drag the arrow to indicate the direction the robot should face upon reaching the goal.
+
+![image](https://github.com/user-attachments/assets/3bde1889-48e4-4419-a0fa-4257cf6e8ad5)
+
+***The robot will begin navigating towards the specified position while avoiding obstacles.***
+
+**Here is a video link for the Navigation:** https://youtu.be/OzYP6ZJatYw
 
 
 
