@@ -37,10 +37,10 @@ By default, the robot will placed in the environment, but it will not move. To c
 * You can navigate the robot and control its speed using the arrow keys on your keyboard.
 * **Note:** The terminal running the teleop_twist_keyboard command must remain active and open in order for the controls to work. If the terminal is closed or minimized, the robot will not respond to movement commands.
 * Once the terminal is running, you can use the following keys to control the robot:
- * I: Move the robot forward.
- * L: Turn the robot right.
- * J: Turn the robot left.
- * K: Stop the robot.
+  * I: Move the robot forward.
+  * L: Turn the robot right.
+  * J: Turn the robot left.
+  * K: Stop the robot.
 Here is a link for running teleop_twist_keyboard with Gazebo: https://youtu.be/FbXKk7vDK7c
 
 ### Running RViz2 for Visualization
