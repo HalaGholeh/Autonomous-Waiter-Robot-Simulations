@@ -9,3 +9,6 @@
 * **Simulation Tools:** 
   * Gazebo for simulation
   * RViz for visualization
+
+### Step-by-Step Instructions:
+![image](https://github.com/user-attachments/assets/5982f975-0af5-4438-8aba-76d0b671be13)
