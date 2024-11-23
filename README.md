@@ -45,8 +45,8 @@ Here is a link for running teleop_twist_keyboard with Gazebo: https://youtu.be/F
 
 ### Running RViz2 for Visualization
 To visualize the robot and the simulation environment, you need to run RViz2 in a separate terminal. Follow these steps:
-  * 1.	Open a new terminal “don’t close any previous terminal”
-  * 2.	Run the following command: **rviz2**
+   1.	Open a new terminal “don’t close any previous terminal”
+   2.	Run the following command: **rviz2**
 * This will launch RViz2, a 3D visualization tool, where you can see the robot and its surroundings the simulation.
 * In RViz2, you will be able to visualize the robot’s sensor data, its path, and other relevant information.
 
