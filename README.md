@@ -109,6 +109,7 @@ To enable the robot to navigate to specific positions or tables, you need to lau
    4.	Terminal 4: Run the SLAM Toolbox command: ros2 launch slam_toolbox online_async_launch.py use_sim_time:=true
    5.	Terminal 5: run Nav2 using this command: ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
 *	Ensure to set Fixed Frame to map in RViz2:
+  
  ![image](https://github.com/user-attachments/assets/ca8adaed-bc64-4e3f-a7ed-a6766e7177b2)
 
  * Start by manually exploring the environment using the keyboard teleoperation tool.
