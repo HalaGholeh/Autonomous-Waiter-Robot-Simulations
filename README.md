@@ -126,7 +126,10 @@ To enable the robot to navigate to specific positions or tables, you need to lau
 **Here is a video link for the Navigation:** https://youtu.be/OzYP6ZJatYw
 
 
+## Acknowledgments
 
+The simulation was built with the help of this excellent tutorial series:  
+[Building a mobile robot on YouTube](https://www.youtube.com/playlist?list=PLunhqkrRNRhYAffV8JDiFOatQXuU-NnxT).
 
 
 
