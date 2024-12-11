@@ -20,9 +20,11 @@
 * **Set UP the Development Workspace in WSL**
   * Open WSL (Ubuntu 22.04.4 LTS in my case).
   * Navigate to the dev_ws directory.
-  * To ensure that the contents of the dev_ws folder are as expected, use
-  * ```bash ls command, this command lists the contents of the current directory. It should display files like src/, install/, build/, etc.
-   ![image](https://github.com/user-attachments/assets/29551d91-970f-4f1d-b05a-bb4943b285df)
+  * To ensure that the contents of the dev_ws folder are as expected, use this command lists the contents of the current directory. It should display files like src/, install/, build/, etc.
+   ```bash
+   ls
+   
+ ![image](https://github.com/user-attachments/assets/29551d91-970f-4f1d-b05a-bb4943b285df)
 
 ### 4. Running the Simulation
 To start the simulation run the following command in your terminal:
