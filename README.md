@@ -24,7 +24,7 @@
    ```bash
    ls
    
- ![image](https://github.com/user-attachments/assets/29551d91-970f-4f1d-b05a-bb4943b285df)
+  ![image](https://github.com/user-attachments/assets/29551d91-970f-4f1d-b05a-bb4943b285df)
 
 ### 4. Running the Simulation
 To start the simulation run the following command in your terminal:
